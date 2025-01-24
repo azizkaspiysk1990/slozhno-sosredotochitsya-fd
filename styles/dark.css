@@ -9,6 +9,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #ff0070;
+  --button-color: #ff0070;
+  --button-color-hover: rgba(255, 0, 112, 0.4);
+  --title-color: #db00ff;
+  --header-desc-color: #000028;
+  --text-decor-color: #000028;
+  --text-color-dark: #f1b2ce;
 }
 
 .theme-dark .page {
