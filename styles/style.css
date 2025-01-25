@@ -12,6 +12,7 @@
   color: var(--text-color-dark);
   font-size: var(--main-font-size);
   line-height: 23.4px;
+  font-weight: 400;
 }
 
 .header {
@@ -19,11 +20,9 @@
   position: relative;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
-  justify-items: center;
   align-items: center;
-  /* min-block-size: 668px; */
-  /* block-size: 100vh; */
-  block-size: max(100vb, 668px);
+  min-block-size: 668px;
+  block-size: 100vh;
   padding: 10px;
 }
 
@@ -76,7 +75,7 @@
 }
 .header__theme-menu-list {
   display: flex;
-  gap: 10px;
+  gap: 13px;
   flex-direction: column;
 }
 .header__theme-menu-item {
@@ -88,7 +87,7 @@
   color: var(--button-color, #ff0070);
   line-height: 18px;
   text-transform: lowercase;
-  padding: 0 13px;
+  padding: 1.5px 13px;
 }
 .header__theme-menu-button:hover {
   outline: 1px solid var(--button-color);
@@ -117,12 +116,13 @@
   text-shadow: 4px 4px 0 var(--accent-color);
   color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  margin-block-end: 55px;
   place-self: center start;
   line-height: 99px;
 }
 .header__subtitle {
   justify-self: flex-end;
+  margin-block-start: 50px;
+  margin-block-end: 54px;
   font-weight: 700;
   color: var(--header-desc-color);
 }
@@ -133,26 +133,34 @@
 .main {
   display: flex;
   flex-direction: column;
-  margin-block: 40px;
   padding-inline: 10px;
   background-color: var(--bg-color, #000028);
-  gap: 50px;
 }
 .main__section {
-  display: grid;
-  gap: 20px;
 }
 
 .main__section--why {
+  margin-block-start: 40px;
+  margin-block-end: 50px;
 }
 .section-title {
   color: var(--accent-color);
+  font-size: 18px;
+  margin-block-end: 20px;
 }
 .section__article {
 }
 .article__title {
+  font-size: 18px;
   margin-block-start: 20px;
   margin-block-end: 10px;
+}
+
+.article__title:not(:last-of-type) {
+}
+
+.article__title-how {
+  font-weight: 400;
 }
 .article__text {
 }
@@ -174,22 +182,24 @@
 .text-shadow {
 }
 .main__section--what {
+  margin-block-end: 50px;
 }
 .section-list {
 }
 .main__section--how {
+  margin-block-end: 30px;
 }
 .section__list {
 }
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
 }
 
 .gallery__list {
   display: grid;
   gap: 10px;
+  margin-block-end: 40px;
 }
 .gallery__list-item {
   width: 100%;
@@ -201,6 +211,7 @@
   align-items: center;
   block-size: 100vh;
   min-block-size: 668px;
+  padding: 0 10px;
 }
 .decorated-zone {
 }
@@ -209,5 +220,4 @@
   text-shadow: 4px 4px 0 var(--accent-color);
   color: var(--title-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 95.7px;
 }
