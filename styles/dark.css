@@ -10,12 +10,19 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff0070;
+  --title-color-shadow: #ff0070;
   --button-color: #ff0070;
   --button-color-hover: rgba(255, 0, 112, 0.4);
   --title-color: #db00ff;
   --header-desc-color: #000028;
   --text-decor-color: #000028;
-  --text-color-dark: #f1b2ce;
+  --text-color: #f1b2ce;
+  --font-family: "IBM Plex mono", monospace;
+  --bg-image: url(../images/cover-image-dark.png);
+  --title-decor-color: #ff0070;
+  --bg-color: #000028;
+  --decorated-color: #ff0070;
+  --link-color: #ff0070;
 }
 
 .theme-dark .page {
