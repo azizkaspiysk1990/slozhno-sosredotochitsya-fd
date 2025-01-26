@@ -143,10 +143,6 @@
   margin-block-end: 10px;
 }
 
-.article__bigtitle {
-  font-size: 18px;
-}
-
 .main__section--how {
   display: grid;
   gap: 20px;
@@ -204,8 +200,7 @@
   align-items: center;
   min-block-size: 668px;
 }
-.decorated-zone {
-}
+
 .footer__title {
   justify-self: center;
   text-shadow: 4px 4px 0 var(--title-color-shadow);
@@ -343,9 +338,6 @@
   .header-subtitle {
     grid-column: 1;
     grid-row: 3;
-  }
-
-  .header__subtitle {
   }
 
   .main__section {
