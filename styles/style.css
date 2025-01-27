@@ -211,7 +211,7 @@
   .header__title {
     grid-column: span 2;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    line-height: 129px;
+    line-height: 99px;
     margin-inline-start: -20px;
   }
 
@@ -321,6 +321,10 @@
 @media (min-width: 1024px) {
   .header {
     min-block-size: 768px;
+  }
+
+  .header__title {
+    line-height: 129px;
   }
 
   .header__theme-menu {
