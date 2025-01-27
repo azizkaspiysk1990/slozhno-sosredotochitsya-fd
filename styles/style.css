@@ -211,7 +211,7 @@
   .header__title {
     grid-column: span 2;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    line-height: 99px;
+    line-height: 129px;
     margin-inline-start: -20px;
   }
 
@@ -331,10 +331,6 @@
 
   .header__theme-menu-list {
     flex-direction: row;
-  }
-
-  .header__subtitle {
-    margin-block-start: 15px;
   }
 
   .main__section {
