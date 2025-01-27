@@ -39,12 +39,11 @@
     --header-desc-color: #353430;
     --text-decor-color: #353430;
     --text-color: #353430;
-    --font-family: "IBM Plex mono", monospace;
     --bg-image: url(../images/cover-image-light.png);
     --title-decor-color: #ff8dcb;
     --bg-color: #fff1f7;
     --decorated-color: #353430;
-    --link-color: #ffc2e6;
+    --link-color: #ff8dcb;
   }
   .rec {
     display: none;
