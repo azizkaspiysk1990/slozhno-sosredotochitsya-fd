@@ -144,13 +144,13 @@
   font-size: 18px;
 }
 
-.article__title {
-  margin-block-end: 10px;
+.article__text {
+  margin-block-start: 10px;
 }
 
-.article__text {
+.article__text-what {
   display: flex;
-  padding: 10px;
+  margin-block-start: 10px;
   gap: 20px;
 }
 
