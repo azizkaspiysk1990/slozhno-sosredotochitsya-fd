@@ -148,6 +148,12 @@
   margin-block-end: 10px;
 }
 
+.article__text {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
 .article__title-how {
   font-weight: 400;
 }
@@ -337,17 +343,12 @@
     flex-direction: row;
   }
 
-  .main__section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .section__article-why {
     grid-column: 2 / 4;
   }
 
   .section__article-what {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     gap: 20px;
   }
 
